@@ -1,0 +1,216 @@
+python3 run_script-CLI.py\
+--device cuda:0 \
+--data_name Somermeyer2022_4GFP \
+--prefix focal_amacGFP_vs_cgreGFP \
+--train_percent 10000\
+--fit_linear\
+--seed 0\
+--specify_train\
+--train_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_amacGFP_vs_cgreGFP_train_list_rep_0.pkl\
+--specify_val\
+--val_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_amacGFP_vs_cgreGFP_val_list_rep_0.pkl\
+--specify_test\
+--test_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_amacGFP_vs_cgreGFP_test_list_rep_0.pkl\
+--iter2 100\
+--iter4 100\
+--iter8 200
+
+
+python3 run_script-CLI.py\
+--device cuda:0 \
+--data_name Somermeyer2022_4GFP \
+--prefix focal_amacGFP_vs_ppluGFP \
+--train_percent 10000\
+--fit_linear\
+--seed 0\
+--specify_train\
+--train_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_amacGFP_vs_ppluGFP_train_list_rep_0.pkl\
+--specify_val\
+--val_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_amacGFP_vs_ppluGFP_val_list_rep_0.pkl\
+--specify_test\
+--test_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_amacGFP_vs_ppluGFP_test_list_rep_0.pkl\
+--iter2 100\
+--iter4 100\
+--iter8 200
+
+
+python3 run_script-CLI.py\
+--device cuda:0 \
+--data_name Somermeyer2022_4GFP \
+--prefix focal_amacGFP_vs_avGFP \
+--train_percent 10000\
+--fit_linear\
+--seed 0\
+--specify_train\
+--train_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_amacGFP_vs_avGFP_train_list_rep_0.pkl\
+--specify_val\
+--val_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_amacGFP_vs_avGFP_val_list_rep_0.pkl\
+--specify_test\
+--test_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_amacGFP_vs_avGFP_test_list_rep_0.pkl\
+--iter2 100\
+--iter4 100\
+--iter8 200
+
+
+python3 run_script-CLI.py\
+--device cuda:0 \
+--data_name Somermeyer2022_4GFP \
+--prefix focal_cgreGFP_vs_amacGFP \
+--train_percent 10000\
+--fit_linear\
+--seed 0\
+--specify_train\
+--train_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_cgreGFP_vs_amacGFP_train_list_rep_0.pkl\
+--specify_val\
+--val_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_cgreGFP_vs_amacGFP_val_list_rep_0.pkl\
+--specify_test\
+--test_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_cgreGFP_vs_amacGFP_test_list_rep_0.pkl\
+--iter2 100\
+--iter4 100\
+--iter8 200
+
+
+python3 run_script-CLI.py\
+--device cuda:0 \
+--data_name Somermeyer2022_4GFP \
+--prefix focal_cgreGFP_vs_ppluGFP \
+--train_percent 10000\
+--fit_linear\
+--seed 0\
+--specify_train\
+--train_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_cgreGFP_vs_ppluGFP_train_list_rep_0.pkl\
+--specify_val\
+--val_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_cgreGFP_vs_ppluGFP_val_list_rep_0.pkl\
+--specify_test\
+--test_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_cgreGFP_vs_ppluGFP_test_list_rep_0.pkl\
+--iter2 100\
+--iter4 100\
+--iter8 200
+
+
+python3 run_script-CLI.py\
+--device cuda:0 \
+--data_name Somermeyer2022_4GFP \
+--prefix focal_cgreGFP_vs_avGFP \
+--train_percent 10000\
+--fit_linear\
+--seed 0\
+--specify_train\
+--train_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_cgreGFP_vs_avGFP_train_list_rep_0.pkl\
+--specify_val\
+--val_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_cgreGFP_vs_avGFP_val_list_rep_0.pkl\
+--specify_test\
+--test_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_cgreGFP_vs_avGFP_test_list_rep_0.pkl\
+--iter2 100\
+--iter4 100\
+--iter8 200
+
+
+python3 run_script-CLI.py\
+--device cuda:0 \
+--data_name Somermeyer2022_4GFP \
+--prefix focal_ppluGFP_vs_amacGFP \
+--train_percent 10000\
+--fit_linear\
+--seed 0\
+--specify_train\
+--train_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_ppluGFP_vs_amacGFP_train_list_rep_0.pkl\
+--specify_val\
+--val_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_ppluGFP_vs_amacGFP_val_list_rep_0.pkl\
+--specify_test\
+--test_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_ppluGFP_vs_amacGFP_test_list_rep_0.pkl\
+--iter2 100\
+--iter4 100\
+--iter8 200
+
+
+python3 run_script-CLI.py\
+--device cuda:0 \
+--data_name Somermeyer2022_4GFP \
+--prefix focal_ppluGFP_vs_cgreGFP \
+--train_percent 10000\
+--fit_linear\
+--seed 0\
+--specify_train\
+--train_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_ppluGFP_vs_cgreGFP_train_list_rep_0.pkl\
+--specify_val\
+--val_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_ppluGFP_vs_cgreGFP_val_list_rep_0.pkl\
+--specify_test\
+--test_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_ppluGFP_vs_cgreGFP_test_list_rep_0.pkl\
+--iter2 100\
+--iter4 100\
+--iter8 200
+
+
+python3 run_script-CLI.py\
+--device cuda:0 \
+--data_name Somermeyer2022_4GFP \
+--prefix focal_ppluGFP_vs_avGFP \
+--train_percent 10000\
+--fit_linear\
+--seed 0\
+--specify_train\
+--train_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_ppluGFP_vs_avGFP_train_list_rep_0.pkl\
+--specify_val\
+--val_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_ppluGFP_vs_avGFP_val_list_rep_0.pkl\
+--specify_test\
+--test_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_ppluGFP_vs_avGFP_test_list_rep_0.pkl\
+--iter2 100\
+--iter4 100\
+--iter8 200
+
+
+python3 run_script-CLI.py\
+--device cuda:0 \
+--data_name Somermeyer2022_4GFP \
+--prefix focal_avGFP_vs_amacGFP \
+--train_percent 10000\
+--fit_linear\
+--seed 0\
+--specify_train\
+--train_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_avGFP_vs_amacGFP_train_list_rep_0.pkl\
+--specify_val\
+--val_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_avGFP_vs_amacGFP_val_list_rep_0.pkl\
+--specify_test\
+--test_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_avGFP_vs_amacGFP_test_list_rep_0.pkl\
+--iter2 100\
+--iter4 100\
+--iter8 200
+
+
+python3 run_script-CLI.py\
+--device cuda:0 \
+--data_name Somermeyer2022_4GFP \
+--prefix focal_avGFP_vs_cgreGFP \
+--train_percent 10000\
+--fit_linear\
+--seed 0\
+--specify_train\
+--train_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_avGFP_vs_cgreGFP_train_list_rep_0.pkl\
+--specify_val\
+--val_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_avGFP_vs_cgreGFP_val_list_rep_0.pkl\
+--specify_test\
+--test_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_avGFP_vs_cgreGFP_test_list_rep_0.pkl\
+--iter2 100\
+--iter4 100\
+--iter8 200
+
+
+python3 run_script-CLI.py\
+--device cuda:0 \
+--data_name Somermeyer2022_4GFP \
+--prefix focal_avGFP_vs_ppluGFP \
+--train_percent 10000\
+--fit_linear\
+--seed 0\
+--specify_train\
+--train_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_avGFP_vs_ppluGFP_train_list_rep_0.pkl\
+--specify_val\
+--val_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_avGFP_vs_ppluGFP_val_list_rep_0.pkl\
+--specify_test\
+--test_list ../Data/Data_prepared/train_lists/Somermeyer2022_4GFP_focal_avGFP_vs_ppluGFP_test_list_rep_0.pkl\
+--iter2 100\
+--iter4 100\
+--iter8 200
+
+

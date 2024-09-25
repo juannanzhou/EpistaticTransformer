@@ -1,0 +1,11 @@
+Faure2023_1_lenient.csv
+Faure2023_3_binding.csv
+Faure2023_3_abundance.csv
+Sinai2021.csv
+Chen2023.csv
+Somermeyer2022_cgreGFP.csv
+Somermeyer2022_ppluGFP.csv
+Somermeyer2022_amacGFP.csv
+Pokusaeva_2019_S2.csv
+Pokusaeva_2019_S5.csv
+Pokusaeva_2019_S12.csv

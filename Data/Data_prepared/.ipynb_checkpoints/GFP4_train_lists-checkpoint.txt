@@ -1,0 +1,4 @@
+Somermeyer2022_amacGFP_train_list_random_20%.pkl  
+Somermeyer2022_cgreGFP_train_list_random_20%.pkl
+Somermeyer2022_avGFP_train_list_random_20%.pkl    
+Somermeyer2022_ppluGFP_train_list_random_20%.pkl

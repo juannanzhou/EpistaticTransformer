@@ -1,0 +1,6 @@
+running script
+sequence length = 34;  AA_size = 2
+number of training samples = 64660
+Fitting linear regression
+Epoch 1/300, Loss: 0.2874449072849183
+0.0009531434335544072
