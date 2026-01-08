@@ -7,7 +7,7 @@ Runs the main training/evaluation pipeline. It prepares data splits, fits models
 
 Required environment
 ------------------
-run conda env create -f environment.yml -n epistatic_transformer_env to create the conda environment 
+run `conda env create -f environment.yml -n epistatic_transformer_env` to create the conda environment 
 
 Required arguments
 ------------------
