@@ -1,5 +1,5 @@
-source_path = "/blue/juannanzhou/ProteinLLE/"
-data_path = "/blue/juannanzhou/ProteinLLE/Data/Data_prepared/"
+source_path = "../"
+data_path = "../Data/Data_prepared/"
 
 import argparse
 
@@ -69,8 +69,10 @@ def split_list(list_to_split, ratio):
 
 current_pid = os.getpid()
 print("Process PID:", current_pid)
-
 outpath = "../output/"
+if not os.path.exists(outpath):
+    os.makedirs(outpath)
+
 device, data_name, prefix, train_percent = args.device, args.data_name, args.prefix, args.train_percent
 
 # Load hyperparameters
